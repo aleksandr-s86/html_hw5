@@ -1,60 +1,59 @@
-a{
+* {
+    margin: 0px;
     text-decoration: none;
+    font-family: Inter;
+    } 
+
+    body{
+        padding: 32px 37px; 
+        width: 85%;
+    }
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px 0px 84px;   
 }
 
 .Grow_Be{
     width: 137px;
     height: 40px;;
     display: flex;
-    margin: 26px 337px 48px 59px;  
+  
 }
 
 .link{
-    font-family: Gilroy-Medium;
+    display: flex;
     font-size: 14px;
     font-weight: 400;
     line-height: -1px;
     letter-spacing: 0%;
-    text-align: left;
-    text-decoration: none;
-    display: inline-flex;
-    
-}
-
-.header{
-    display: inline-flex;
-    margin: 14px 12px 21px 18px;
-   width: 100%;
+    align-self: center;
 }
 
 .menu{
-    display: inline-flex;
-    margin: 26px 200px 48px 0px;
-    padding: 11px 14px 12px 9px;
+    display: flex;
+    justify-content: end;
     gap: 40px;
 }
 
 .seo{
     color: rgb(0, 0, 0);
-    font-family: Gilroy-Bold;
     font-size: 60px;
     font-weight: 400;
     line-height: -1px;
     letter-spacing: 0%;
     text-align: left;
-    
 }
 
 .Provide{
     color: rgb(136, 136, 136);
-    font-family: Gilroy-Medium;
     font-size: 20px;
     font-weight: 400;
     line-height: -1px;
     letter-spacing: 0%;
-    text-align: left;
-   
-   
+    text-align: left;   
 }
 
 .start{
@@ -63,7 +62,6 @@ a{
     background: rgb(242, 88, 34);
     width: 140px;
     color: rgb(255, 255, 255);
-    font-family: Gilroy-Bold;
     font-size: 15px;
     font-weight: 400;
     line-height: -1px;
@@ -74,7 +72,6 @@ a{
 
 .watch{
     color: rgb(170, 170, 170);
-    font-family: Gilroy-Bold;
     font-size: 15px;
     font-weight: 400;
     line-height: -1px;
@@ -87,30 +84,37 @@ a{
 
 .top_buttons{
     display: flex;
-    width: 302px;
     height: 50px;
     left: 2013px;
     right: -1793px;
     top: 75px;
     bottom: 249px;
     gap: 72px;
+    margin: 12px 0px;
    
 }
 
 .top_logo{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center ;
-    gap: 48px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .top_content{
     display: flex;
-    margin: 0px 27px 53px 18px;
+    justify-content: space-between;
     width: 100%;
+    gap: 30px;
+    margin: 0px 0px 200px;
 }
 
 
-.logo{
+.Logo{
     height: 50px;
+}
+
+.top_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
